@@ -36,11 +36,12 @@ public class CategoryDAOimpl implements CategoryDAO {
     }
 
     @Override
-    public Category getCategory(String var1) {
+    public Category getCategory(String categoryId) {
         Category category=null;
         try{
             Connection connection= DButil.getConnection();
             PreparedStatement preparedStatement=connection.prepareStatement(GET_CATRGORY);
+            preparedStatement.setString(1,categoryId);
             ResultSet resultSet=preparedStatement.executeQuery(GET_CATRGORY_LIST);
             if(resultSet.next()){
                 category= new Category();
