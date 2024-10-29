@@ -19,7 +19,5 @@
     </content>
     <orderEntry type="jdk" jdkName="corretto-21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="jsp-api" level="project" />
-    <orderEntry type="library" name="jstl" level="project" />
   </component>
 </module>
