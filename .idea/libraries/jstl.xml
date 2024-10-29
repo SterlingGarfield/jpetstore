@@ -1,0 +1,78 @@
+<component name="libraryTable">
+  <library name="jstl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../Apache/apache-tomcat-8.5.35/lib/jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Apache/apache-tomcat-8.5.35/lib/standard.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../.." />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../.." />
+      <root url="file://$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2023.2/tomcat/160222e3-dce4-4462-af4e-6f719ca41ffa/work/Catalina/localhost/ROOT" />
+      <root url="file://$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2023.3/tomcat/0eb18143-5b55-4cdc-8bbc-c620fefa4a28/work/Catalina/localhost/jspdemo_war_exploded" />
+      <root url="file://$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2023.3/tomcat/ed8f6783-c543-430c-a21b-8fb02aa93165/work/Catalina/localhost/petstore_war_exploded" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment2-1/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment2-2/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment2-3/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment2-4/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment3-1/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment3-2/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment3-3/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment3-4/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment4-1/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment4-2/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment4-3/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment5-1/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment5-3/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment6-1/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment6-2/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment6-3/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment7-1/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment7-2/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment7-3/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment8-1/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment8-2/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment8-3/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experiment8-4/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/experioment5-2/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/javaExperiment1/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/javaExperiment2/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/javaExperiment3/src" />
+      <root url="file://$PROJECT_DIR$/../../JAVA實驗/javaExperiment4/src" />
+      <root url="file://$PROJECT_DIR$/../../java實訓/-/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../java實訓/demo" />
+      <root url="file://$PROJECT_DIR$/../../java實訓/demo1/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../java實訓/demo2/src" />
+      <root url="file://$PROJECT_DIR$/../../teacher management systyem" />
+      <root url="file://$PROJECT_DIR$/../../teacher/teacher-manage-system/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../teacher/teacher/src" />
+      <root url="file://$PROJECT_DIR$/../../untitled/src" />
+      <root url="file://$PROJECT_DIR$/src" />
+      <root url="file://$PROJECT_DIR$/../../第五次實訓/-/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2017/quals/2017-re-food/Food/app/src/androidTest/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2017/quals/2017-re-food/Food/app/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2017/quals/2017-re-food/Food/app/src/test/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2017/quals/2017-re-food/dex/src" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2018/quals/re-android/Shallweplayagame/app/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2019/finals/web-bsaber/client" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2019/quals/pwn-jit/src" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2019/quals/reversing-android/checker_project/app/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2019/quals/reversing-android/project/android/src" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2019/quals/reversing-android/project/core/src" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2019/quals/reversing-android/project/desktop/src" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2020/quals/pwn-app-ads/app/ads-api/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2020/quals/pwn-app-ads/app/ads-common/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2020/quals/pwn-app-ads/app/ads-impl/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2020/quals/pwn-app-ads/app/app/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2020/quals/pwn-app-ads/app/exploit/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2021/quals/pwn-tridroid/challenge/exploit" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2021/quals/pwn-tridroid/challenge/src/app/src/androidTest/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2021/quals/pwn-tridroid/challenge/src/app/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2021/quals/pwn-tridroid/challenge/src/app/src/test/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2021/quals/rev-adspam/Bot/app/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2022/quals/web-log4j/chatbot/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/GitHub/google-ctf/2022/quals/web-log4j/chatbot/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/hello/src/main/java/org/example" />
+    </SOURCES>
+  </library>
+</component>
