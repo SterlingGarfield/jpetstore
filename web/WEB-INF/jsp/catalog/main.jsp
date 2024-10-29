@@ -1,5 +1,4 @@
 <%@include file="../common/top.jsp"%>
-
 <div id="Welcome">
     <div id="WelcomeContent">
     <!--顯示登入用戶資訊-->
@@ -9,15 +8,15 @@
 <div id="Main">
     <div id="Sidebar">
         <div id="SidebarContent">
-            <a href=""><img src="../images/fish_icon.gif" /></a><br>
+            <a href="categoryForm?categoryId=FISH"><img src="../images/fish_icon.gif" /></a><br>
             SaltWater, FreshWater <br>
-            <a href=""><img src="../images/dogs_icon.gif" /></a><br>
+            <a href="categoryForm?categoryId=DOGS"><img src="../images/dogs_icon.gif" /></a><br>
             Various Breeds <br>
-            <a href=""><img src="../images/cats_icon.gif" /></a><br>
+            <a href="categoryForm?categoryId=CATS"><img src="../images/cats_icon.gif" /></a><br>
             Various Breeds, Exotic Varieties<br>
-            <a href=""><img src="../images/reptiles_icon.gif" /></a><br>
+            <a href="categoryForm?categoryId=REPTILES"><img src="../images/reptiles_icon.gif" /></a><br>
             Lizards,Turtles,Snakes<br>
-            <a href=""><img src="../images/birds_icon.gif"></a><br />
+            <a href="categoryForm?categoryId=BIRDS"><img src="../images/birds_icon.gif"></a><br />
             Exotic Varieties
         </div>
     </div>

@@ -10,7 +10,7 @@ public class DButil {
     public static Connection getConnection(){
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://127.0.0.1/mygame?userSSL=true&useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT", "root", "123456");
+            con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/jpetstore?userSSL=true&useUnicode=true&characetrEncoding=UTF8&serverTimezone=GMT", "root", "123456");
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         } catch (SQLException e) {
@@ -85,4 +85,5 @@ public class DButil {
             }
         }
     }
+
 }

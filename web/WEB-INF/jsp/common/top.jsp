@@ -6,8 +6,7 @@
 <html>
 
 <head>
-    <link rel="StyleSheet" href="css/mypetstore.css" type="text/css"
-          media="screen" />
+    <link rel="StyleSheet" href="CSS/mypetstore" type="text/css" media="screen" />
     <title>MyPetStore</title>
 </head>
 <body>
@@ -39,17 +38,17 @@
             </div></div>
 
         <div id="QuickLinks">
-            <a href=""><img src="images/sm_fish.gif" /></a>
+            <a href="categoryForm?categoryId=FISH"><img src="images/sm_fish.gif" /></a>
             <img src="images/separator.gif" />
-            <a href=""><img src="images/sm_dogs.gif" /></a>
+            <a href="categoryForm?categoryId=DOGS"><img src="images/sm_dogs.gif" /></a>
             <img src="images/separator.gif" />
-            <a href=""><img src="images/sm_reptiles.gif" /></a>
+            <a href="categoryForm?categoryId=REPTILES"><img src="images/sm_reptiles.gif" /></a>
             <img src="images/separator.gif" />
-            <a href=""><img src="images/sm_cats.gif" /></a>
+            <a href="categoryForm?categoryId=CATS"><img src="images/sm_cats.gif" /></a>
             <img src="images/separator.gif" />
-            <a href=""><img src="images/sm_birds.gif" /></a>
+            <a href="categoryForm?categoryId=BIRDS"><img src="images/sm_birds.gif" /></a>
         </div>
 
     </div>
 
-<div id="Content"><stripes:messages /></div>
+<div id="Content"></div>

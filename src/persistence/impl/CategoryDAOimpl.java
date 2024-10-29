@@ -13,7 +13,7 @@ public class CategoryDAOimpl implements CategoryDAO {
     private static final String GET_CATRGORY_LIST=
             "SELECT CATID AS categoryId,DESCN AS description FROM CATEGORY";
     private static final String GET_CATRGORY=
-        "SELECT CATID AS categoryId,NAME,DESCN AS description,FROM CATEGORY WHERE CATID = ?";
+        "SELECT CATID AS categoryId, NAME, DESCN AS description FROM CATEGORY WHERE CATID = ?;";
     @Override
     public List<Category> getCategoryList() {
         List<Category> categoryList = new ArrayList<>();
@@ -42,7 +42,7 @@ public class CategoryDAOimpl implements CategoryDAO {
             Connection connection= DButil.getConnection();
             PreparedStatement preparedStatement=connection.prepareStatement(GET_CATRGORY);
             preparedStatement.setString(1,categoryId);
-            ResultSet resultSet=preparedStatement.executeQuery(GET_CATRGORY_LIST);
+            ResultSet resultSet=preparedStatement.executeQuery();
             if(resultSet.next()){
                 category= new Category();
                 category.setCategoryId(resultSet.getString("categoryId"));
