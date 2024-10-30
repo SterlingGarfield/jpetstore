@@ -72,7 +72,6 @@ public class itemDAOimpl implements itemDAO {
             String itemId=param.keySet().iterator().next();
             Integer increment =(Integer) param.get(itemId);
             preparedStatement.setInt(1,increment.intValue());
-            preparedStatement.setString(2,itemId);
             preparedStatement.executeUpdate();
             DButil.closeAll();
         } catch (SQLException e) {
@@ -137,15 +136,41 @@ public class itemDAOimpl implements itemDAO {
     /*getItem未完成*/
     @Override
     public item getItem(String var1) {
-        item Item=null;
+        item Item = null;
+
         try {
-            Connection connection=DButil.getConnection();
-            PreparedStatement preparedStatement=connection.prepareStatement(items);
+            Connection connection = DButil.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(items);
+
+            preparedStatement.setString(1,var1);
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            if(resultSet.next()){
+                Item = new item();
+                Item.setItemId(resultSet.getString(1));
+                Item.setUnitCost(resultSet.getBigDecimal(3));
+                Item.setSupplierId(resultSet.getInt(4));
+                product Product = new product();
+                Product.setProductId(resultSet.getString(5));
+                Product.setName(resultSet.getString(6));
+                Product.setDescription(resultSet.getString(7));
+                Product.setCategoryId(resultSet.getString(8));
+                Item.setProduct(Product);
+                Item.setStatus(resultSet.getString(9));
+                Item.setAttribute1(resultSet.getString(10));
+                Item.setAttribute2(resultSet.getString(11));
+                Item.setAttribute3(resultSet.getString(12));
+                Item.setAttribute4(resultSet.getString(13));
+                Item.setAttribute5(resultSet.getString(14));
+                Item.setQuantity(resultSet.getInt(15));
+            }
 
             DButil.closeAll();
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+
+        }catch (Exception e){
+            e.printStackTrace();
         }
+
         return Item;
     }
 }

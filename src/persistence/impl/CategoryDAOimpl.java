@@ -24,7 +24,7 @@ public class CategoryDAOimpl implements CategoryDAO {
             while(resultSet.next()){
                 Category category= new Category();
                 category.setCategoryId(resultSet.getString("categoryId"));
-                category.setName(resultSet.getString("name"));
+                category.setName(resultSet.getString("NAME"));
                 category.setDescription(resultSet.getString("description"));
                 categoryList.add(category);
             }
